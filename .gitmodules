@@ -1,0 +1,3 @@
+[submodule "models/whisperkit-openai_whisper-medium-demo"]
+	path = models/whisperkit-openai_whisper-medium-demo
+	url = https://huggingface.co/Flitto/whisperkit-openai-whissper-medium-demo
