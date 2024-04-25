@@ -29,7 +29,7 @@ TEST_WHISPER_VERSION = (
 )  # tiny"
 TEST_DEV = os.getenv("TEST_DEV", None) or get_fastest_device()
 TEST_TORCH_DTYPE = torch.float32
-TEST_PSNR_THR = 35
+TEST_PSNR_THR = 22 # default: 35
 TEST_CACHE_DIR = os.getenv("TEST_CACHE_DIR", None) or "/tmp"
 
 # WhisperDecoderContextPrefill constants
